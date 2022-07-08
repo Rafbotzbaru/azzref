@@ -167,10 +167,10 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'HALO @user 👋\n SELAMAT DATANG DI  @subject \n❋𝗝𝗔𝗦𝗔 𝗥𝗨𝗡❋\n-𝚃𝚒𝚗𝚐𝚐𝚊𝚕 𝚂𝚌𝚊𝚗\n-𝟸𝟺𝙹𝚊𝚖 𝚋𝚘𝚝 𝚊𝚔𝚝𝚒𝚏\n𝙿𝚊𝚢𝚖𝚎𝚗𝚝 : 𝙳𝙰𝙽𝙰\n𝙼𝚒𝚗𝚊𝚝 ? wa.me/6281511480762' 
-  conn.bye = 'YAHHH @user TELAH KELUAR DARI @subject'
-  conn.spromote = '@user sekarang admin!'
-  conn.sdemote = '@user sekarang bukan admin!'
+  conn.welcome = 'HALO @user YATIM👋\nSELAMAT DATANG DI GRUP BOKEP🗿\n\nMASUK GC GW :\n\n😈₲ⱤɄ₱ ฿Ø₮Ⱬ ꋬꇙꌦꋪꋬꊰ 6ꌦꄲ꒤꒤¹😈\n\nGRUP 1 :\nhttps://chat.whatsapp.com/CRrj0z3HgeX39XHNUt0M9V\n\nGRUP 2 :\nhttps://chat.whatsapp.com/Da7ZPf7mC8T3nERBpWPcgt\n\nGRUP 3 :\nhttps://chat.whatsapp.com/BdwNQqYBwDN5UtvievnDEe' 
+  conn.bye = 'SELAMAT TINGGAL DI ALAM BAKA @user\nTETAP JANGAN SEMANGAT💪🗿\nTETAPLAH PUTUS ASA💪🗿\nDAN JADILAH YATIM BEBAN KELUARGA💪🗿'
+  conn.spromote = 'Kontol @user Malah Admin Ajg!'
+  conn.sdemote = 'Aowkwowkw Kasian @user Bukan Jadi Admin Tolol Lagi!'
   conn.handler = handler.handler.bind(conn)
   conn.onParticipantsUpdate = handler.participantsUpdate.bind(conn)
   conn.onDelete = handler.delete.bind(conn)
