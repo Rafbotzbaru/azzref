@@ -944,17 +944,17 @@ conn.ws.on('CB:call', async (json) => {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*owner*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*owner*_!',
-        mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*Undang Bot+Premium*\n1 Bulan *Rp10.000*\n2bulan *Rp15.000*\n\nKetik .sewa kalau minat..', 
-        banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
-        group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: 'Perintah ini hanya untuk *Admin* grup!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
-        restrict: 'Fitur ini di *disable*!'
+        rowner: 'Khusus owner kontol, lu cuman user dek',
+        owner: 'Lu cuman user dek, mangaknya buat bot ajg',
+        mods: 'Khusus Moderator Kontol!',
+        premium: '*Sewa Bot + Premium + Yatim, Ketik .sewa Kontol Kalau Mau Colmek', 
+        banned: 'Khusus Yg Terbanned Owkwowk..',
+        group: 'Khusus Group Kontol!',
+        private: 'Khusus Chat Pribadi Tolol!',
+        admin: 'Khusus Admin Tolol, Lu Cuman User Kontol',
+        botAdmin: 'Bot Bukan Admin Yatim Kontol Tolol',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Kontol.17*',
+        restrict: 'Fitur ini di *disable* Comli!'
     }[type]
     if (msg) return m.reply(msg)
 }
